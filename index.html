@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    body{
+        font-family: "Montserrat", sans-serif;
+
+    }
+</style>
+<body class="text-center">
+     
+    <h3 class="font-bold text-3xl mt-5 mb-10 text-white">Color Flipper</h3>
+    <button class="rounded-[5px] font-medium w-[100px] h-[40px] border border-black bg-[#008000]"  id="green" onclick="setColor('green')">Green</button>
+    <button class="rounded-[5px] font-medium w-[100px] h-[40px] border border-black bg-[#ff0000]" id="red" onclick="setColor('red')">Red</button>
+    <button class="rounded-[5px] font-medium w-[100px] h-[40px] border border-black bg-[#0000ff]" id="blue" onclick="setColor('blue')">Blue</button>
+    <button class="rounded-[5px] font-medium w-[100px] h-[40px] border border-black bg-white"  onclick="randomColor()">Random</button>
+
+    <!-- js -->
+    <script src="./index.js"></script>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
